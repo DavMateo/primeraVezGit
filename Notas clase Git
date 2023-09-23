@@ -1,0 +1,89 @@
+Git - Github - GitLab
+
+GitLab es un laboratorio de despliegue, usado mucho para la área de producción.
+
+
+Lo siguiente es NATIVO de VSCode:
+
+La letra U en Git significa que el archivo se acabó de crear y no tiene control sobre el archivo.
+
+La letra A en Git significa que esos archivos nuevos va a empezar a tener control sobre ellos.
+
+La letra M en Git significa que hay código nuevo o modificación dentro de los archivos sobre los que tiene control.
+
+La letra D en Git significa que se ha eliminado un código, avisando antes de realizar el commit, guardándolo pero de ahí en adelante no va a perder control sobre el archivo eliminado, claramente.
+
+El símbolo ! en Git significa que hay conflicto al momento de cargar un código al repositorio de Git, dando la posibilidad sobre que archivo de las versiones guardadas se desea guardar.
+
+__________________________________________________________________
+
+
+Las ramas en github permiten separar las áreas de un proyecto dentro de un mismo repositorio. Por ejemplo, en un sitio web un FrontEnd y BackEnd trabajan por separado y la rama Feactures une las dos anteriores, en otras palabras, recoge todo el trabajo de las distintas ramas en una sola rama.
+
+
+
+En la revisión de un taller por parte de los Trainers o de contenido sensible, es mejor publicarlo a GitHub de manera PRIVADA para evitar problemas de plagio.
+
+
+
+Para forzar a que VSCode envíe al repositorio un Tag, se debe colocar el siguiente comando en consola: "git push origin tag 1.0.0 -f" en caso de que directamente con la extensión de conventional commits no permita agregar un tag. También intentar reiniciando VSCode.
+
+
+
+IMPORTANTE: Crear un archivo README donde principalmente se usa este archivo para instalar o configurar el servicio que el programador a creado. En otras palabras, es un abrebocas.
+
+Para escribir el archivo README.md de manera más fácil, se puede instalar la app "Typora" y configurarlo para que tenga autoguardado y se pueda sincronizar en tiempo real en VSCode.
+
+
+
+GitHub funciona como una red social en cuanto a referenciar push request, commits y usuarios que colaboran o tienen acceso al repositorio. El símbolo () se usa en un commit para referenciar un commit específico, lo mismo pasa para un push request pero ahora es con el símbolo # seguido del identificador. Y para referenciar a un usuario de Git se emplea el símbolo de @ seguido del nombre del usuario.
+
+
+El archivo de "about" dentro del repositorio, que es el que contiene toda la información sobre el repositorio, se crea directamente en GitHub.
+
+
+
+Unir dos ramas lo conocemos como Merge. Cuando haces merge de estas ramas con el código principal, su código se fusiona originando una nueva versión de la rama master (o main) que ya tiene todos los cambios que aplicaste en tus experimentos o arreglos de errores. Podemos generar todas las ramas y commits que queramos.
+
+En una versión estable podría ser mejor realizar un merge, pero depende mucho de la situación en la que se pueda realizar.
+
+
+
+Las ramas dependen del commit en la que se vaya a realizar tal acción. Es el punto inicial de todo, por lo que debemos vincular el commit con la rama.
+
+
+
+
+____________________________________
+
+
+PUSH REQUEST
+
+El Graph permite visualizar de mejor manera la línea de tiempo de todo el código desarrollado. Estos se representan en colores que van cambiando para representar cada rama que pueda generarse en esa línea de tiempo.
+
+Fusiona una rama con otra rama.
+
+___________________________________
+
+
+
+Tener mucho cuidado con seleccionar un commit y una rama, pues podría generar un código temporal y eventualmente todo cambio realizado se podría perder.
+
+
+
+___________________________________
+
+
+TAREA
+
+Tomar ejercicios de talleres realizados o por realizar dentro de la ruta de aprendizaje designado a cada camper y luego, crear un respositorio para montar todos esos archivos de código en una misma rama "Main".
+
+___________________________________
+
+
+
+
+REVISAR:
+1. La web gitmoji
+2. La web commits convencional
+3. Lista de comandos en GIT (Disponible en Discord)
