@@ -16,4 +16,5 @@ body {
     letter-spacing: 3px;
     padding: 10px 30px;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 4px 2px #fff;
 }
